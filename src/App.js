@@ -1,15 +1,16 @@
 import React from 'react';
 import './components/common/Loader.css';
 import Sidebar from './components/common/sidebar/Sidebar';
-import PageContainer from "./components/common/PageContainer";
 import './assets/scripts/index.js'
+import PageContainer from "./components/common/PageContainer";
+import {BrowserRouter as Router} from "react-router-dom";
 
 function App() {
     return (
-        <div>
+        <Router>
             <Sidebar/>
             <PageContainer/>
-        </div>
+        </Router>
     )
 }
 

@@ -1,7 +1,7 @@
-import React, {Component} from 'react';
+import React from 'react';
 
 const UserShow = () => (
-    <div></div>
+    <div>xcvxcvxc</div>
 );
 
 export default UserShow;

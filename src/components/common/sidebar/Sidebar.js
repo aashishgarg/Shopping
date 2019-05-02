@@ -3,10 +3,6 @@ import Logo from './Logo'
 import Menu from "./Menu";
 
 class Sidebar extends Component {
-    constructor(props) {
-        super(props);
-    };
-
     render() {
         return (
             <div className="sidebar">

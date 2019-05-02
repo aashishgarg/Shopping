@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Header from "./Header";
 import Footer from "./Footer";
-import Body from "./Body";
+import Routing from "../../Routing";
 
 class PageContainer extends Component {
     render() {
@@ -10,7 +10,7 @@ class PageContainer extends Component {
                 <Header/>
                 <main className='main-content bgc-grey-100'>
                     <div id='mainContent'>
-                        <Body/>
+                        <Routing/>
                     </div>
                 </main>
                 <Footer/>
