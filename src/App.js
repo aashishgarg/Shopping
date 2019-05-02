@@ -1,12 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './components/common/Loader.css';
 import Sidebar from './components/common/sidebar/Sidebar';
+import PageContainer from "./components/common/PageContainer";
+import './assets/scripts/index.js'
 
 function App() {
-  return (
-      <Sidebar/>
-  );
+    return (
+        <div>
+            <Sidebar/>
+            <PageContainer/>
+        </div>
+    )
 }
 
 export default App;
